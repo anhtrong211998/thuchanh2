@@ -24,9 +24,14 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.js",
+              "./node_modules/bootstrap/dist/js/bootstrap.js"
+
+            ]
           },
           "configurations": {
             "production": {
@@ -119,6 +124,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "thuchanh2"
+    }
+  },
+  "defaultProject": "thuchanh2",
+  "cli": {
+    "analytics": "e9c32e8f-371d-4575-90a8-7efca5a7fea8"
+  }
 }
